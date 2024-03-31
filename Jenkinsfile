@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage("test") {
       steps {
-        sh script.sh
+        echo "TEST FROM branch1"
+        # sh script.sh
       }
     }
   }
